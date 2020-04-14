@@ -1,5 +1,11 @@
 package main
 
+import (
+	_ "VEGA2/routers"
+
+	"github.com/astaxie/beego"
+)
+
 func main() {
-	println("Tempoman")
+	beego.Run()
 }
